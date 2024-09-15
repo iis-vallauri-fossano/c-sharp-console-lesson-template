@@ -3,14 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson", "lesson.csproj", "{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson", ".\lesson\lesson.csproj", "{920B58A5-2C71-49BF-9B2E-DF9ED6708D35}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests", "..\tests\tests.csproj", "{D68EA7A9-48AE-419C-AFF3-7A94426E53B9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{A3E37313-6F2C-43E3-82AD-5DEAF1E11FF7}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests", ".\tests\tests.csproj", "{D68EA7A9-48AE-419C-AFF3-7A94426E53B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
