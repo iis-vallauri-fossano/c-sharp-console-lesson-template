@@ -9,8 +9,10 @@
         public static void Main(string[] args)
         {
             // Write some code here...
-            Console.WriteLine("A");
-            Console.WriteLine("B");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Il perimetro del quadrato è " + n * 4);
+            Console.WriteLine("L'area del quadrato è " + n * n);
         }
     }
 }
